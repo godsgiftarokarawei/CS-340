@@ -33,3 +33,14 @@ In addition, SNHU’s course-provided materials guided the implementation, parti
 
 Final Notes
 This dashboard demonstrates a full-stack approach to building data-driven web applications using Python. By combining MongoDB’s flexible data storage, Dash’s powerful UI capabilities, and various Python libraries, the application fulfills all requirements and offers a usable interface for Grazioso Salvare to improve its rescue operations. All required features are functional, and the dashboard is ready for deployment or further extension.
+
+How do you write programs that are maintainable, readable, and adaptable?
+Writing maintainable, readable, and adaptable code starts with good structure and clear organization. For this course, I developed a Python CRUD module during Project One that cleanly separated the database logic from the dashboard logic. This modularity allowed me to reuse the same CRUD functions in Project Two when building the interactive dashboard. By using descriptive function names, consistent indentation, and comments, I made sure the code was readable for others (or myself in the future).
+ 	The main advantage of this approach was that it saved time and reduced errors—I didn’t have to rewrite database logic, and any updates could be made in one place. In the future, I could reuse or expand this CRUD module for other dashboards, applications, or even APIs that interact with MongoDB databases.
+ How do you approach a problem as a computer scientist?
+I approach problems by breaking them down into manageable parts. When working on the Grazioso Salvare project, I first analyzed the data structure and dashboard requirements. From there, I designed database queries that would serve the needs of the user interface, then built the visual components around that. Compared to earlier courses, this project required more real-world planning, including handling missing data and creating a fallback for map visuals.
+ 
+Going forward, I will continue using an iterative approach: analyze the client's goals, prototype with simple functionality first, test frequently, and build out complexity only when the foundations are solid.
+ 
+What do computer scientists do, and why does it matter?
+Computer scientists solve real-world problems through structured logic and technology. In this project, I created a dashboard to help an organization like Grazioso Salvare visualize inspection data and monitor compliance. This can help them operate more efficiently, identify trends, and make data-driven decisions. My work contributes to this by turning raw data into an interactive tool that’s both useful and understandable, bridging the gap between technical data and non-technical users.
